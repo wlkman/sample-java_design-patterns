@@ -20,12 +20,15 @@ public class ShapeMaker {
     }
 
     public void drawCircle(){
+
         circle.draw();
     }
     public void drawRectangle(){
+
         rectangle.draw();
     }
     public void drawSquare(){
+
         square.draw();
     }
 }

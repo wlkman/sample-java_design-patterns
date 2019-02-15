@@ -5,6 +5,7 @@ import com.cuixb.structuralpattern.decorator.shape.Shape;
 public class RedShapeDecorator extends ShapeDecorator {
 
     public RedShapeDecorator(Shape decoratedShape) {
+
         super(decoratedShape);
     }
 
@@ -15,6 +16,7 @@ public class RedShapeDecorator extends ShapeDecorator {
     }
 
     private void setRedBorder(Shape decoratedShape){
+
         System.out.println("Border Color: Red");
     }
 }

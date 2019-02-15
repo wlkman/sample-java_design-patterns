@@ -11,6 +11,7 @@ public class Subject {
     private int state;
 
     public int getState() {
+
         return state;
     }
 
@@ -20,6 +21,7 @@ public class Subject {
     }
 
     public void attach(Observer observer){
+
         observers.add(observer);
     }
 

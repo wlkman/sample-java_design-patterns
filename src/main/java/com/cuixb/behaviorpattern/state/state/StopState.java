@@ -10,6 +10,7 @@ public class StopState implements State {
     }
 
     public String toString(){
+
         return "Stop State";
     }
 }
